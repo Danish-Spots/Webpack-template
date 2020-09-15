@@ -1,8 +1,11 @@
-$fontColor: #0091aa;
+$fontColor: #cf6666;
 $colorHeading: #be4a14;
 #content  // div with id: content
 {
     color: $fontColor;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: "https://cdn.discordapp.com/attachments/694663852419448883/753533510916112415/unknown.png";
+    background-size: auto;
 }
 
 h2
@@ -12,4 +15,12 @@ h2
 
 h1{
     @extend h2;
+}
+#gif{
+    border: 50px solid lightgoldenrodyellow;
+    
+}
+#images{
+    max-height: 500px;
+    overflow: auto;
 }
